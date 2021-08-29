@@ -8,5 +8,5 @@ def returnSum(myDict):
     return sum
   
 # Driver Function
-dict = {'a': 100, 'b':200, 'c':300}
-print("Sum :", returnSum(dict))
+dict1 = {'a': 100, 'b':200, 'c':300}
+print("Sum :", returnSum(dict1))
