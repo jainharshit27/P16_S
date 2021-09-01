@@ -1,4 +1,5 @@
-# Function to print sum
+dict1 = 'a': 100, 'b':200, 'c':300
+
 def returnSum(myDict):
       
     sum = 0
@@ -7,6 +8,4 @@ def returnSum(myDict):
       
     return sum
   
-# Driver Function
-dict1 = {'a': 100, 'b':200, 'c':300}
 print("Sum :", returnSum(dict1))
