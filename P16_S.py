@@ -1,4 +1,4 @@
-dict1 = 'a': 100, 'b':200, 'c':300
+dict1 = {'a': 100, 'b':200, 'c':300}
 
 def returnSum(myDict):
       
@@ -8,4 +8,5 @@ def returnSum(myDict):
       
     return sum
   
-print("Sum :", returnSum(dict1))
+sum = returnSum(dict1)
+print("Sum :", sum)
